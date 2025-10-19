@@ -1,16 +1,51 @@
-h1{
-    color: black;
-    font-family: 'Playfair Display'serif;
-    font-weight: bold;
+:root {
+    --primary-color-50: #6c63ff;
+    --primary-color-60: #5750dd;
+    --heading-font-family: serif, "Playfair";
+    --font-family: sans-serif, "poppins";
+    --base-font-size: 18px;
 }
 
-p{
-    font-family: 'Poppins', sans-serif;
+body {
+    font-family: var(--font-family);
+    font-size: var(--base-font-size);
+    line-height: 100%;
+}
+h1, .h1{
+    color: black;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+p, .p, .paragraph {
+    font-family: var(--font-family);
     font-weight: normal;
 }
 
-.fa-github {
-    color: #333;
-    font-size: 1.2rem;
-    margin-left: 5px;
+.hero{
+    background:#F9F7FE ;
+    text-align: center;
+    min-height: 70vh;
+    align-content:center;
+}
+
+.hero .subtitle {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+button, .btn, .button {
+    background-color: var(--primary-color-50);
+    color: white;
+    border-radius: 4px;
+    width: fit-content;
+    padding: 12px 30px;
+    margin: 10px 0 0 0;
+    gap: 10px;
+}
+
+button:hover, .btn:hover, .button:hover {
+    background-color: var(--primary-color-60);
+    color: white;
 }
