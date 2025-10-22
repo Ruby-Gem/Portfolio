@@ -73,6 +73,10 @@ button:hover, .btn:hover, .button:hover {
     padding: 120px 60px;
 }
 @media (max-width: 900px) {
+    h1 {
+    font-size: 44px;
+    line-height: 1.5;
+    }
     .project-desciption {
         padding: 0;
         text-align: center;
