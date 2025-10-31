@@ -79,17 +79,25 @@ p {
   font-size: 48px;
   line-height: 1.1;
 }
+.flex {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gap-lg {
+    gap: 32px;
+}
 
 button,
 .btn,
 .button {
   background-color: var(--primary-color-50);
   box-shadow: var(--box-shadow);
-  color: var(--primary-color);
+  color: white;
   border-radius: 4px;
   width: fit-content;
-  padding: 12px 30px;
-  margin: 10px 0 0 0;
+  padding: 16px 44px;
   gap: 10px;
 }
 
@@ -102,8 +110,9 @@ button:hover,
 }
 
 .btn-branding-outline {
-  background-color: var(--primary-color-50);
+  background-color: white;
   border-radius: 4px;
+  color: var(--primary-color-60);
   border: 1px solid var(--primary-color-50);
   font-size: 18px;
   line-height: 27px;
